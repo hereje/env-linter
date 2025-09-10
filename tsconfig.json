@@ -2,9 +2,9 @@
 	"extends": "@merkle-open/ts-config",
 	"compilerOptions": {
 		"outDir": "build",
-		"module": "commonjs",
 		"esModuleInterop": true,
-		"target": "ES2016"
+		"target": "ES2016",
+		"types": ["vitest/globals"]
 	},
 	"exclude": ["dist", "build", "node_modules", "__tests__", "templates", "bin"]
 }
